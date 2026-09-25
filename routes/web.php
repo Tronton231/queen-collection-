@@ -19,42 +19,42 @@ Route::get('/produk/{id}', function ($id) {
             'id' => 1,
             'name' => 'Queen Basic',
             'description' => 'Baju basic yang nyaman untuk dipakai sehari-hari.',
-            'icon' => '👕'
+            'icon' => '👕',
         ],
 
         2 => [
             'id' => 2,
             'name' => 'Queen Casual',
             'description' => 'Model casual untuk aktivitas harian.',
-            'icon' => '👚'
+            'icon' => '👚',
         ],
 
         3 => [
             'id' => 3,
             'name' => 'Queen Simple',
             'description' => 'Desain simpel yang mudah dipadukan.',
-            'icon' => '👕'
+            'icon' => '👕',
         ],
 
         4 => [
             'id' => 4,
             'name' => 'Queen Daily',
             'description' => 'Pilihan baju untuk kegiatan sehari-hari.',
-            'icon' => '👚'
+            'icon' => '👚',
         ],
 
         5 => [
             'id' => 5,
             'name' => 'Queen Street',
             'description' => 'Gaya santai untuk aktivitas outdoor.',
-            'icon' => '👕'
+            'icon' => '👕',
         ],
 
         6 => [
             'id' => 6,
             'name' => 'Queen Style',
             'description' => 'Baju simpel dan stylish.',
-            'icon' => '👚'
+            'icon' => '👚',
         ]
 
     ];
@@ -88,42 +88,42 @@ Route::post('/keranjang/tambah/{id}', function ($id) {
             'id' => 1,
             'name' => 'Queen Basic',
             'price' => 25000,
-            'icon' => '👕'
+            'icon' => '👕',
         ],
 
         2 => [
             'id' => 2,
             'name' => 'Queen Casual',
             'price' => 25000,
-            'icon' => '👚'
+            'icon' => '👚',
         ],
 
         3 => [
             'id' => 3,
             'name' => 'Queen Simple',
             'price' => 25000,
-            'icon' => '👕'
+            'icon' => '👕',
         ],
 
         4 => [
             'id' => 4,
             'name' => 'Queen Daily',
             'price' => 25000,
-            'icon' => '👚'
+            'icon' => '👚',
         ],
 
         5 => [
             'id' => 5,
             'name' => 'Queen Street',
             'price' => 25000,
-            'icon' => '👕'
+            'icon' => '👕',
         ],
 
         6 => [
             'id' => 6,
             'name' => 'Queen Style',
             'price' => 25000,
-            'icon' => '👚'
+            'icon' => '👚',
         ]
 
     ];
